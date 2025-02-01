@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игры Онлайн</title>
+  <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать в мир игр!</h1>
+    <nav>
+      <ul>
+        <li><a href="#action">Экшн Игры</a></li>
+        <li><a href="#rpg">РПГ Игры</a></li>
+        <li><a href="#strategy">Стратегии</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="action">
+    <h2>Экшн Игры</h2>
+    <p>Захватывающие игры с быстрым темпом и экшн-сценами.</p>
+    <button onclick="showGameInfo('action')">Узнать больше</button>
+    <div class="game-info" id="action-info"></div>
+  </section>
+
+  <section id="rpg">
+    <h2>РПГ Игры</h2>
+    <p>Ролевые игры с глубоким сюжетом и развитием персонажа.</p>
+    <button onclick="showGameInfo('rpg')">Узнать больше</button>
+    <div class="game-info" id="rpg-info"></div>
+  </section>
+
+  <section id="strategy">
+    <h2>Стратегии</h2>
+    <p>Игры, в которых нужно принимать важные тактические решения.</p>
+    <button onclick="showGameInfo('strategy')">Узнать больше</button>
+    <div class="game-info" id="strategy-info"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Игры Онлайн</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
